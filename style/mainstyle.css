@@ -1,0 +1,244 @@
+body{
+    background-color: rgb(5,155,155);
+}
+
+.header1{
+    display: flex;
+    justify-content:end;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
+header{
+    background-color: rgb(11,105,108);
+    height: 70px;
+}
+
+button{
+    border-style: none;
+    background-color: rgb(11,105,108);
+}
+
+button a:hover{
+    color: salmon;
+}
+
+.btn-home a{
+font-size: 24px;
+text-decoration: none;
+color: rgba(0,163,160,255);
+}
+.btn-wisata a{
+font-size: 24px;
+text-decoration: none;
+color: rgba(0,163,160,255);
+}
+.btn-object a{
+font-size: 24px;
+text-decoration: none;
+color: rgba(0,163,160,255);
+}
+.btn-booking a{
+font-size: 24px;
+text-decoration: none;
+color: rgba(0,163,160,255);
+}
+.btn-contact a{
+font-size: 24px;
+text-decoration: none;
+color: rgba(0,163,160,255);
+}
+
+.header2{
+    overflow: hidden;
+    height: 500px;
+    width: 1000px;
+    padding-top: 10px;
+    margin-left: 0px;
+}
+
+@-webkit-keyframes slide_animation{
+    0% {left: 0px;}
+    10% {left: 0px;}
+    20% {left: 1000px;}
+    30% {left: 1000px;}
+    40% {left: 2000px;}
+    50% {left: 2000px;}
+    60% {left: 1000px;}
+    70% {left: 1000px;}
+    80% {left: 0px;}
+    90% {left: 0px;}
+    100% {left: 0px;}
+}
+
+.slide-images{
+width: 3000px;
+height: 500px;
+margin: 0 0 0 -2000px;
+position: relative;
+-webkit-animation-name: slide_animation;
+-webkit-animation-duration: 33s;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+-webkit-animation-play-state: running;
+}
+
+.img-container{
+    height: 500px;
+    width: 1000px;
+    position: relative;
+    float: left;
+    position: relative;
+  text-align: center;
+}
+
+h1{
+    color: white;
+}
+
+.top-left{
+    position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.nav1{
+    width: 410px;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    color: blue;
+}
+
+.nav2{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+pre{
+    line-height: 200%;
+}
+
+.nav1 a{
+    text-decoration: none;
+}
+
+.nav1 a:hover{
+    color: salmon;
+}
+
+.upper-group{
+    display: flex;
+}
+
+.lower-group{
+    display: flex;
+}
+
+.section{
+    width: 1000px;
+    height: 350px;
+}
+
+.section pre{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.section h3{
+    color: blue;
+}
+
+.wisata1{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.wisata1 img{
+    border-radius: 50%;
+}
+
+.wisata2{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.wisata2 img{
+    border-radius: 50%;
+}
+
+.wisata3{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.wisata3 img{
+    border-radius: 50%;
+}
+
+.wisata4{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.wisata4 img{
+    border-radius: 50%;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    color: blue;
+}
+
+.section2 img{
+    margin-top: 10px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(0,52,53,255);
+}
+
+.section pre a{
+    text-decoration: none;
+    color: white;
+}
+
+.section pre a:hover{
+    color: salmon;
+}
+
+.upper-content-wisata{
+    display: flex;
+}
+
+.lower-content-wisata{
+    display: flex;
+    align-items: center;
+}
+
+.lower-content-wisata pre{
+    margin-top: 60px;
+}
+
+.lower-left-content-wisata{
+    display: flex;
+    flex-direction: column;
+}
